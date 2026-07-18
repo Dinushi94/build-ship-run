@@ -6,7 +6,7 @@ export interface SlideData {
   subtitle?: string;
   type: 'intro' | 'question' | 'split' | 'flow' | 'lab' | 'grid' | 'final';
   time: string;
-  hint: string;
+  hint?: string;
   content: any;
 }
 
